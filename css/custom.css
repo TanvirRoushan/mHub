@@ -1,0 +1,117 @@
+body {
+
+}
+
+.maincontainer{
+    min-height: 600px;
+    background-color: #000;
+    height: auto;
+}
+
+.menubar{
+    min-height: 50px;
+/*    background: #6299c5;*/
+    z-index: 99;
+}
+
+
+.about{
+   min-height: 100px;
+    background: #d5edf8 ;
+    margin-left: 13px;
+}
+
+.movielistAbout{
+    min-height: 200px;
+}
+
+
+.head{
+    min-height: 150px;
+    background: white;
+    font-family: Gill, Helvetica, sans-serif;
+}
+
+.advertise{
+    min-height: 300px;
+    background: #ff0;
+    margin-left: 13px;
+}
+
+.advertise_three{
+    min-height: 300px;
+    background: #d5edf8;
+    margin-left: 13px;
+}
+
+.dash_advertise {
+    min-height: 200px;
+    background: #ff0;
+    margin-left: 13px;
+}
+
+.homeMovie{
+    min-height: 300px;
+background: #d5edf8;
+    margin-left: 13px;
+}
+
+.signindiv{
+    min-height: 150px;
+
+}
+
+.registerdiv{
+    min-height: 50px;
+}
+
+.movielist{
+    min-height: 850px;
+}
+
+.movielist_two{
+     min-height: 780px;  
+}
+
+.entryDetail{
+    min-height: 300px;
+    background: #c2e1ef ;
+    margin-left: 13px;
+}
+
+.popup{
+    position: absolute;
+    background: #900;
+    margin: 160px auto auto 460px;
+    height: auto;
+    width: auto;
+    display:none;
+}
+
+.admin{
+    min-height: 300px;
+    margin-left: 26px;
+}
+
+.wantadmin{
+    min-height: 300px;
+    margin-left: 11px;
+}
+
+.prifilePic:hover #changePic
+{
+	display:block;
+}
+
+#changePic{
+	position:absolute;
+	
+	background: orange;
+	opacity: 0.5;
+	display: none;
+	cursor: pointer;
+}
+
+#changePic:hover{
+	opacity:1;
+}
